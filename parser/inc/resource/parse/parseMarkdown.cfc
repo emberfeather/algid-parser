@@ -18,8 +18,7 @@
 	/**
 	 * Converst the given raw source into HTML.
 	 */
-	/* required raw */
-	public string function toHtml( string raw ) {
+	public string function toHtml( required string raw ) {
 		return variables.parser.markdown(raw);
 	}
 </cfscript>

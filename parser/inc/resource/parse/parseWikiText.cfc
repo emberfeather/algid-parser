@@ -10,8 +10,7 @@
 	/**
 	 * Convert the given raw source into HTML using the WikiText MarkupParser.
 	 */
-	/* required raw */
-	public string function toHtml( string raw ) {
+	public string function toHtml( required string raw ) {
 		var writer = '';
 		var builder = '';
 		var parser = '';
