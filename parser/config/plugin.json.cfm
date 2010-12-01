@@ -16,6 +16,7 @@
 		]
 	},
 	"key": "parser",
+	"plugin": "Parser",
 	"prerequisites": {
 	},
 	"requestSingletons": {
