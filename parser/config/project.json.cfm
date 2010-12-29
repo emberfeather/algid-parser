@@ -18,6 +18,7 @@
 	"key": "parser",
 	"plugin": "Parser",
 	"prerequisites": {
+		"algid": "0.1.3"
 	},
 	"requestSingletons": {
 	},
